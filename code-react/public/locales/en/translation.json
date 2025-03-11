@@ -1,0 +1,90 @@
+{
+    "navLinks": [
+        "home",
+        "about",
+        "services",
+        "portfolio",
+        "PortfolioDetails",
+        "blog",
+        "contact"
+    ],
+    "contactSup": "Do you have a project in your <br/> mind? Keep connect us.",
+    "ContactUs": "Contact Us",
+    "Newsletter": "Subscribe",
+    "NewsletterSup": "Subscribe to our newsletter and get the latest updates and offers.",
+    "hero": {
+        "hero_Title": "We provide outstanding  <br/>web  design and development services",
+        "hero_Sub_title": "We are a team of talented professionals who work together to create stunning websites and digital products.",
+        "hero_Btn_Text": "Contact us today and let us build your next project!"
+    },
+    "fact": {
+        "fun_fac_title": "Our fun fact",
+        "fun_fac_subtitle": "We work to improve your requirements and achieve your goals in an integrated and businesslike manner.",
+        "fun_fac_Data": [
+            {
+                "title": "Global Happy Clients",
+                "factNumber": 200
+            },
+            {
+                "title": "Project Completed",
+                "factNumber": 200
+            },
+            {
+                "title": "Team Members",
+                "factNumber": 10
+            },
+            {
+                "title": "Digital products",
+                "factNumber": 100
+            }
+        ]
+    },
+    "services": {
+        "title": "Services we can help you with",
+        "sub_title": "We provide a wide range of services to help you grow your business.",
+        "btn_text": "See all services"
+    },
+    "Portfolio": {
+        "title": "Portfolio",
+        "sub_title": "Some of our recent projects"
+    },
+    "VideoModal": {
+        "title": "Our agile process is ability to adapt and respond to change. Agileorganizations view change as an opportunity, not a threat."
+    },
+    "teams": {
+        "title": "Meet our team",
+        "sub_title": "We are a team of talented professionals who work together to create stunning websites and digital products."
+    },
+    "cta": {
+        "title": "Let’s disscuse make <br />something <i>cool</i> together",
+        "btn_text": "Apply For Meetings"
+    },
+    "footer": {
+        "TextWidget": "Welcome to codeprops. We are a company specialized in providing IT solutions for the requirements of companies across various industries.",
+        "menu": [
+            "Home",
+            "About",
+            "Services",
+            "Portfolio",
+            "Blog",
+            "Contact"
+        ],
+        "social_media": [
+            "Facebook",
+            "Instagram",
+            "Twitter",
+            "LinkedIn"
+        ],
+        "copyright": "�� 2022 Creative Agency. All rights reserved."
+    },
+    "about": {
+        "title": "About Us",
+        "description": "Your trusted partner for business",
+        "sub_title": "We are a team of talented professionals who work together to create stunning websites and digital products.",
+        "why_choose": "Why Choose Us",
+        "why_choose_title": "Highly experienced pepole with us",
+        "why_choose_description": "We work to improve your requirements and achieve your goals in an integrated and businesslike manner.",
+        "team_title": "Meet our team",
+        "team_description": "We are a team of talented professionals who work together to create stunning websites and digital products."
+    }
+}
