@@ -8,6 +8,6 @@ i18next
     .use(I18nextBrowserLanguageDetector)
     .use(Backend)
     .init({
-        debug: true,
-        fallbackLng: "en",
+        debug: false,
+        fallbackLng: "ar",
     })
