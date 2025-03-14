@@ -8,24 +8,24 @@ import SectionHeading from '../SectionHeading';
 import TeamSlider from '../Slider/TeamSlider';
 import Spacing from '../Spacing';
 import { Trans, useTranslation } from 'react-i18next';
-const funfaceData = [
-  {
-    title: 'Global Happy Clients',
-    factNumber: '40K',
-  },
-  {
-    title: 'Project Completed',
-    factNumber: '50K',
-  },
-  {
-    title: 'Team Members',
-    factNumber: '245',
-  },
-  {
-    title: 'Digital products',
-    factNumber: '550',
-  },
-];
+// const funfaceData = [
+//   {
+//     title: 'Global Happy Clients',
+//     factNumber: '40K',
+//   },
+//   {
+//     title: 'Project Completed',
+//     factNumber: '50K',
+//   },
+//   {
+//     title: 'Team Members',
+//     factNumber: '245',
+//   },
+//   {
+//     title: 'Digital products',
+//     factNumber: '550',
+//   },
+// ];
 
 export default function AboutPage() {
   pageTitle('About');

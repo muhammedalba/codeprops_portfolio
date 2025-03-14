@@ -283,6 +283,14 @@ export default function Header({ variant }) {
                         </ul>
                       </DropDown>
                     </li> */}
+                        <li>
+                      <NavLink
+                        to="contact"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                       {t("navLinks", { returnObjects: true })[6]}
+                      </NavLink>
+                    </li>
                     {/* trans select */}
                      <li className='d-flex  align-items-center'>
                     

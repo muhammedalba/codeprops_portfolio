@@ -15,50 +15,39 @@ import { Trans, useTranslation } from "react-i18next";
 export default function ServiceDetailsPage() {
   pageTitle("Service Details");
   const {t}=useTranslation();
-  const params = useParams();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+
+  const inboxes=[1,2,3].map((i)=>(
+    <Div  key={i}className="col-lg-4">
+    <IconBox
+     
+      icon={`/images/icons/service_icon_${i}.svg`}
+      title={t("services_Details.Icon_Box", { returnObjects: true })[i-1]?.title}
+      subtitle={t("services_Details.Icon_Box", { returnObjects: true })[i-1]?.sub_title}
+    />
+    </Div>
+  ));
   return (
     <>
       <PageHeading
-        title="Service Details"
+        title={t('services_Details.title')}
         bgSrc="/images/service_hero_bg.jpeg"
-        pageLinkText={params.serviceDetailsId}
+        pageLinkText={t('services_Details.title')}
       />
       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Design working process"
+          title={t('services_Details.sub_title')}
           subtitle="UI/UX Design"
           variant="cs-style1 text-center"
         />
         <Spacing lg="90" md="45" />
         <Div className="row">
-          <Div className="col-lg-4">
-            <IconBox
-              icon="/images/icons/service_icon_1.svg"
-              title="Sketching"
-              subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo."
-            />
-            <Spacing lg="30" md="30" />
-          </Div>
-          <Div className="col-lg-4">
-            <IconBox
-              icon="/images/icons/service_icon_2.svg"
-              title="Wireframing"
-              subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo."
-            />
-            <Spacing lg="30" md="30" />
-          </Div>
-          <Div className="col-lg-4">
-            <IconBox
-              icon="/images/icons/service_icon_3.svg"
-              title="Prototyping"
-              subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo."
-            />
-            <Spacing lg="30" md="30" />
-          </Div>
+          {inboxes}
         </Div>
       </Div>
       <Spacing lg="120" md="50" />
@@ -76,20 +65,20 @@ export default function ServiceDetailsPage() {
           </Div>
           <Div className="col-lg-6 offset-xl-1">
             <h2 className="cs-font_50 cs-m0">
-              Below our most design related services
+             {t('services_Details.related_services')}
             </h2>
             <Spacing lg="50" md="30" />
             <Div className="row">
               <Div className="col-lg-6">
                 <Button
                   btnLink="/service/service-details"
-                  btnText="Web page design"
+                  btnText="Web page "
                   variant="cs-type2"
                 />
                 <Spacing lg="20" md="10" />
                 <Button
                   btnLink="/service/service-details"
-                  btnText="eCommerce design"
+                  btnText="eCommerce "
                   variant="cs-type2"
                 />
                 <Spacing lg="20" md="10" />
@@ -127,7 +116,7 @@ export default function ServiceDetailsPage() {
                 <Spacing lg="20" md="10" />
                 <Button
                   btnLink="/service/service-details"
-                  btnText="Mobile apps design"
+                  btnText="Mobile apps "
                   variant="cs-type2"
                 />
                 <Spacing lg="20" md="10" />
@@ -158,7 +147,7 @@ export default function ServiceDetailsPage() {
           <Div className="row">
             <Div className="col-xl-5 col-lg-6">
               <SectionHeading
-                title="Some pre questions and answers"
+                title={t('services_Details.FAQ_title')}
                 subtitle="FAQ’s"
               />
               <Spacing lg="90" md="45" />

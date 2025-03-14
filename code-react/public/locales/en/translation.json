@@ -6,10 +6,22 @@
         "portfolio",
         "PortfolioDetails",
         "blog",
-        "contact"
+        "Contact Us"
     ],
-    "contactSup": "Do you have a project in your <br/> mind? Keep connect us.",
+    "contactSup": "Do you have a project <br/>in your mind?",
     "ContactUs": "Contact Us",
+    "contact_form":{
+        "title": "Contact Form",
+        "name": "Full Name",
+        "Project": " Project Name",
+        "email": "Email",
+        "phone": "Phone",
+        "message": "Message",
+        "submit": "Submit",
+        "success_msg": "Your message has been sent successfully. We will contact you very soon!",
+        "error_msg": "Sorry your message not sent successfully. Please try again later!"
+    },
+
     "Newsletter": "Subscribe",
     "NewsletterSup": "Subscribe to our newsletter and get the latest updates and offers.",
     "hero": {
@@ -86,5 +98,53 @@
         "why_choose_description": "We work to improve your requirements and achieve your goals in an integrated and businesslike manner.",
         "team_title": "Meet our team",
         "team_description": "We are a team of talented professionals who work together to create stunning websites and digital products."
+    }
+    ,
+    "services_Details": {
+        "title": "Services",
+        "sub_title": "We provide a wide range of services to help you grow your business",
+        "Icon_Box":[
+            {
+           
+            "title": "Web Design",
+            "sub_title": "At this stage, initial icons are sketched on paper or using digital design tools. Icons play an important role in user interfaces, representing key functionality in a visual and easy-to-understand way. These sketches determine the icon's shape and style, helping to streamline user interaction."
+        },
+        {
+           
+            "title": "Wireframing",
+            "sub_title": "Here, designers begin creating a rough layout of the interface using simple lines and geometric shapes, without adding fine details like colors or images. The goal of this phase is to define the overall structure of the site or app, including the locations of key elements like menus, buttons, and content. This initial design helps visualize how the user will interact with the interface." 
+        },
+        {
+           
+            "title": "Prototyping",
+            "sub_title": "After the basic structure is drawn, the interactive prototyping stage comes, where designers begin adding interactions and actual content to create an experience similar to the final product. In this stage, an interactive prototype is created that users can test by interacting with various elements. These prototypes help determine whether the user interface works smoothly before the actual development process begins."
+        }],
+        "related_services":" Below are our most relevant services:",
+        "FAQ_title": "Some pre questions and answers",
+            "accordion_Data": [
+              {
+                "question": "Do you design illustration-based websites?",
+                "answer": "Yes, we design creative illustration-based websites that reflect the brand identity, focusing on user experience and easy navigation."
+              },
+              {
+                "question": "Do you provide the design source files after finishing the work?",
+                "answer": "Yes, after completing the project and settling the payment, we provide all source files in various formats such as Figma, Adobe XD, or Photoshop based on the client's request."
+              },
+              {
+                "question": "How can I provide project details and make payments?",
+                "answer": "You can send your project details via email or through the contact form on our website. After discussing the requirements, we agree on the budget and payment method, which can include bank transfer or online payment gateways."
+              },
+              {
+                "question": "How can I contact you for a project?",
+                "answer": "You can contact us via email, phone, or the contact form on our website. We can also arrange a virtual meeting to discuss project details more thoroughly."
+              },
+              {
+                "question": "Do you create custom logos, icons, etc.?",
+                "answer": "Yes, we offer custom logo, icon, and brand identity design services tailored to your vision, ensuring high quality and innovative ideas."
+              }
+            ]
+          
+          
+
     }
 }
